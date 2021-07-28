@@ -9,18 +9,137 @@
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Custom CSS  -->
+    <link rel="stylesheet" href="css/style.css">
+
 </head>
 
 <body>
-    <header>
+    <header class="bg-primary">
+        <section class="container">
+            <div class="row py-5 d-flex align-items-center">
+                <div class="col-md-6">
+                    <span>Computer-controlled digital transistorized with electronic advance</span>
+                    <h1>Honda CBR 300R</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit tenetur ad ipsa odit aut
+                        accusantium adipisci distinctio earum, nemo voluptate!</p>
+                    <button type="button" class="btn btn-warning" data-bs-toggle="modal"
+                        data-bs-target="#staticBackdrop">Purchase</button>
+                    <!--Purchase Button On Click Modal -->
+                    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                        tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title bg-danger text-light px-3 py-2" id="staticBackdropLabel">
+                                        SORRY! Out Of
+                                        Stock
+                                    </h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <strong>"Honda CBR 300R"</strong> is not available right now. We are arranging more
+                                    bikes along with Honda CBR 300R. Follow and visit our website frequently for
+                                    upcoming stock to purchase. Thank You...
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img class="img-fluid" src="images/header-bike.png" alt="CBR Image">
+                </div>
+            </div>
 
+
+        </section>
     </header>
+    <main class="container">
+        <section class="feature my-5 text-center">
+            <h2>Fetured Bikes 2021</h2>
+            <span>Best bike collection</span>
+            <hr>
+            <div class="container overflow-hidden">
+                <div class="row g-5 my-5">
+                    <div class="col-12 col-lg-4">
+                        <img class="img-fluid grayscale" src="images/feature-bike.jpg" alt="">
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <img class="img-fluid" src="images/feature-bike.jpg" alt="">
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <img class="img-fluid grayscale" src="images/feature-bike.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
 
 
-
-
-
-    <main>
+        <!-- HAPPY CLIENTS  -->
+        <section class="happy-clients my-5 text-center">
+            <h2>Happy Clients says</h2>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col d-flex justify-content-center">
+                    <div class="card py-4 px-3">
+                        <img src="images/user-1.png" class="client-img rounded-circle" alt="">
+                        <div>
+                            <p class="mt-3">This is a longer card with supporting text below as a natural lead-in
+                                to additional content. This content is a little bit longer.</p>
+                        </div>
+                        <div>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <h4>Regina Miles</h4>
+                        <h5>Banker</h5>
+                    </div>
+                </div>
+                <div class="col d-flex justify-content-center">
+                    <div class="card py-4 px-3">
+                        <img src="images/user-1.png" class="client-img rounded-circle" alt="">
+                        <div>
+                            <p class="mt-3">This is a longer card with supporting text below as a natural lead-in
+                                to additional content. This content is a little bit longer.</p>
+                        </div>
+                        <div>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <h4>Regina Miles</h4>
+                        <h5>Banker</h5>
+                    </div>
+                </div>
+                <div class="col d-flex justify-content-center">
+                    <div class="card py-4 px-3">
+                        <img src="images/user-1.png" class="client-img rounded-circle" alt="">
+                        <div>
+                            <p class="mt-3">This is a longer card with supporting text below as a natural lead-in
+                                to additional content. This content is a little bit longer.</p>
+                        </div>
+                        <div>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <h4>Regina Miles</h4>
+                        <h5>Banker</h5>
+                    </div>
+                </div>
+            </div>
+        </section>
 
     </main>
 
@@ -33,6 +152,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
+    <!-- Font AWESOME LINK  -->
+    <script src="https://kit.fontawesome.com/4099297a09.js" crossorigin="anonymous"></script>
 </body>
 
 </html>

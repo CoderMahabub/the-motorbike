@@ -1,0 +1,25 @@
+/*---------------------------*\
+     GOOGLE POPPINS FONT 
+*\---------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+/*---------------------------*\
+     COMMON CSS STYLE
+*\---------------------------*/
+body{
+    font-family: 'Poppins', sans-serif;
+}
+hr{
+    width: 60px;
+    border: 1px solid #E76F51;
+    border-radius: 1px;
+    margin: auto;
+}
+img.img-fluid.grayscale{
+    filter: grayscale(100%);
+}
+.client-img{
+    width: 149px;
+    height: 149px;
+    margin: auto;
+}
