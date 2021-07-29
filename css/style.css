@@ -26,6 +26,9 @@ hr{
     border-radius: 1px;
     margin: auto;
 }
+h2.text-dark{
+    font-size: 48px;
+}
 /*---------------------------*\
      HEADER SECTION STYLE
 *\---------------------------*/
