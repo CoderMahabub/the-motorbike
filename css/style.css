@@ -20,6 +20,12 @@ body{
     font-size: 14px;
     text-decoration: none;
 }
+hr{
+    width: 60px;
+    border: 1px solid #E76F51;
+    border-radius: 1px;
+    margin: auto;
+}
 /*---------------------------*\
      HEADER SECTION STYLE
 *\---------------------------*/
@@ -34,16 +40,15 @@ body{
     width: 552px;
     height: 447px;
 }
-
-hr{
-    width: 60px;
-    border: 1px solid #E76F51;
-    border-radius: 1px;
-    margin: auto;
-}
+/*---------------------------*\
+     FEATURED SECTION STYLE
+*\---------------------------*/
 img.grayscale{
     filter: grayscale(100%);
 }
+/*---------------------------*\
+     CLIENTS SECTION STYLE
+*\---------------------------*/
 .client-img{
     width: 149px;
     height: 149px;
@@ -61,3 +66,6 @@ img.grayscale{
     height: 420px;
 
 }
+/*---------------------------*\
+     STYLES ENDS HERE
+*\---------------------------*/
