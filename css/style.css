@@ -9,17 +9,48 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+.colored-text{
+    color: #E76F51;
+}
+.bg-head{
+    background-color: #264653;
+}
+.small-text{
+    color: #E0E0E0;
+    font-size: 16px;
+}
+.extra-small{
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.my-button{
+    background-color:#E76F51;
+    border-radius: 5px;
+}
+.header-img{
+    width: 552px;
+    height: 447px;
+}
+
+
+
+
 hr{
     width: 60px;
     border: 1px solid #E76F51;
     border-radius: 1px;
     margin: auto;
 }
-img.img-fluid.grayscale{
+img.grayscale{
     filter: grayscale(100%);
 }
 .client-img{
     width: 149px;
     height: 149px;
     margin: auto;
+}
+.card-text{
+    color: #6C6C6C;
+    font-size: 16px;
 }
