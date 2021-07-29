@@ -12,9 +12,6 @@ body{
 .colored-text{
     color: #E76F51;
 }
-.bg-head{
-    background-color: #264653;
-}
 .small-text{
     color: #E0E0E0;
     font-size: 16px;
@@ -23,7 +20,12 @@ body{
     font-size: 14px;
     text-decoration: none;
 }
-
+/*---------------------------*\
+     HEADER SECTION STYLE
+*\---------------------------*/
+.bg-head{
+    background-color: #264653;
+}
 .my-button{
     background-color:#E76F51;
     border-radius: 5px;
@@ -32,9 +34,6 @@ body{
     width: 552px;
     height: 447px;
 }
-
-
-
 
 hr{
     width: 60px;
@@ -53,4 +52,12 @@ img.grayscale{
 .card-text{
     color: #6C6C6C;
     font-size: 16px;
+}
+/*---------------------------*\
+     FAQ SECTION STYLE
+*\---------------------------*/
+.faq-img{
+    width: 430px;
+    height: 420px;
+
 }
